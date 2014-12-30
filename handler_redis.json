@@ -1,0 +1,19 @@
+{
+  "redis": {
+    "queue": "sensu_events"
+  },
+  "mail": {
+    "address": "mail.example.com",
+    "port": 587,
+    "domain": "mail.example.com",
+    "user_name": "sensu",
+    "password": "password",
+    "to": "admin@mail.example.com"
+  },
+  "handlers": {
+    "redis": {
+      "type": "pipe",
+      "command": "/etc/sensu/handlers/redis_handler.rb"
+    }
+  }
+}
