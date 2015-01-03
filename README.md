@@ -1,8 +1,12 @@
 ## Sensu Handlers & Mailer for Redis
 
+    2012/01/13 02:42:39
+    host01 (10.2.1.11) frontend_http_check
+    HTTP CRITICAL: HTTP/1.1 503 Service Temporarily Unavailable
+
 #### About
 
- - `redis_handler.rb`: SensuのEventをRedisに保存
+ - `redis_handler.rb`: SensuのEventをRedisに保存(`occurrences`が1の場合)
  - `redis_mailer.rb`: Redisに保存されたEventをまとめてメール
 
 #### How to use
