@@ -25,7 +25,7 @@ Cronで定期的に`redis_mailer.rb`を実行する(ここでは2時間ごと)�
 
 ## Settings
 
-`handler_redis.json`の設定項目。
+`handler_redis.json`の設定項目。  
 RedisはSensuの設定に従い、メールは標準でlocalhostを使用する。
 
 <table>
